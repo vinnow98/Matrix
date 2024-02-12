@@ -1,0 +1,124 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+
+}
+
+header{
+    border-top: black 1px
+    solid;
+    border-bottom: rgb(189, 189, 189) 1px solid;
+    width: 1000px;
+    margin: 15px 0px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+a{
+    color: blue;
+}
+
+#middleSection{
+    width: 1000px;
+    display: flex;
+}
+.sideBar{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px;
+}
+.findAPlace{
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.whereAreYouGoing{
+    margin: 15px 0px;
+}
+
+input{
+    width: 176px;
+}
+
+#guest{
+width:30px
+}
+
+#places{
+    margin:0px 30px;
+    display: flex;
+    flex-direction: row;
+}
+.mainPlace{
+    margin-right: 5px;
+}
+#amsterdam{
+height: auto;
+width: 338px;
+}
+.mainPlaceInfo{
+    display: flex;
+    flex-direction: row;
+}
+#woman{
+    width:60px;
+    height: 70px;
+}
+.info{
+    margin: 5px 15px;
+}
+
+.placeTitle{
+    color: rgb(255, 0, 166);
+    font-weight: 600;
+}
+.sidePlace2,.sidePlace3{
+    margin-top: 5px;
+}
+.placeSubtitle{
+    color: grey;
+}
+.sideImage{
+    width: 170px;
+    height: 85px;
+}
+
+.sidePlace4{
+    width: 1000px;
+}
+
+.asSeenOn{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+label[for="newsOutlets"]{
+font-style: italic;
+font-weight: bold;
+}
+
+#newsOutlets{
+    width: 650px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.links{
+    width: 1000px;
+}
+
+ul{
+    margin-left: -25px;
+}
+
+footer{
+    width: 1000px;
+    font-size: 10px;
+}
