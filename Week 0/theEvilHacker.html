@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+           display: block;
+        }
+        .greyBackground{
+            background-color: grey;
+            width: 800px;
+            height: 500px;
+            margin: 0 auto;
+            padding:5px;
+        }
+    
+        .blueBox{
+            background-color: blue;
+            width: 795px;
+            height: 150px;
+            margin: auto;
+        }
+        .middleArea{
+           display: flex;
+           flex-direction: row;
+        }
+        .redBox{
+            background-color: red;
+            width: 195px;
+            height:300px;
+            margin: 5px auto;
+        }
+        .yellowBox{
+            background-color: yellow;
+            width: 590px;
+            height: 340px;
+            margin: 5px auto 0px auto;
+        }
+        .purple{
+            display: flex;
+            flex-direction: row;
+            margin: 10px 20px 10px 5px;
+        }
+        .purpleBox{
+            background-color: purple;
+            width: 186px;
+            height: 186px;
+            margin: 0px 5px;
+        }
+        .pinkBox{
+            background-color: pink;
+            width: 555px;
+            height: 125px;
+            margin: 10px 20px 10px 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="greyBackground">
+            <div class="blueBox"></div>
+        <div class="middleArea">
+            <div class="redBox"></div>
+            <div class="yellowBox">
+                <div class="inTheYellowBox">
+                    <div class="purple">
+                        <div class="purpleBox"></div>
+                        <div class="purpleBox"></div>
+                        <div class="purpleBox"></div>
+                    </div>
+                    <div class="pinkBox"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
