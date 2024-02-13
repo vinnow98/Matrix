@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(216, 216, 216)
+    ;
+    display: flex;
+    flex-direction: row;
+}
+a{
+    color: blue;
+}
+
+.blue{
+    color: blue;
+}
+.blue:hover{
+    cursor: pointer;
+}
+#leftSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+}
+.leftMidSection{
+    background-color: rgb(178, 177, 177);
+    width:200px;
+    height: 500px;
+}
+.general{
+    display: flex;
+    font-size: 20px;
+    text-decoration: underline;
+    color: blue;
+}
+
+.helpFAQ{
+    margin: 5px;
+    font-weight: bold;
+}
+.postSubscriptions{
+    margin: 5px;
+    font-weight: bold;
+}
+
+.highlight{
+    background-color: rgb(216, 216, 216);
+    margin: 5px;
+}
+
+
+.searchSection{
+    background-color: rgb(156, 155, 155);
+    width: 180px;
+    height: 87px;
+    margin: 10px;
+    padding-top: 10px;
+}
+.searchSection>*{
+    margin-left: 8px;
+}
+
+label[for = search]{
+    font-weight: bold;
+}
+
+.leftBottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.leftBottom>*{
+    margin: 10px;
+}
+
+.greyHighlight{
+    background-color: rgb(201, 201, 201);
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.midMidSection{
+    display: flex;
+    flex-direction: row;
+}
+.midMidLeftSection,.midMidRightSection{
+    width: 158px;
+    margin: 0px 10px;
+}
+.midMidLeftSection{
+    margin-left: 20px;
+}
+.blue>*{
+    background-color: rgb(240, 239, 239);
+    margin-bottom: 2px;
+}
+.smallTitle{
+    font-weight: bold;
+    background-color: rgb(201, 201, 201);
+}
+
+.notBlue{
+    color: black;
+    cursor: auto;
+}
+.notHighlight{
+    background-color:rgb(216, 216, 216)
+}
+.bottomTitle{
+    margin-top: 10px;
+}
+
+.rightTop{
+    margin: 20px 20px 35px;
+    position: relative;
+    top: 6px;
+}
+
+.rightMidSection{
+    width: 175px;
+    margin: 0px 10px;
+}
