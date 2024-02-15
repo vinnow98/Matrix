@@ -78,7 +78,7 @@ img{
 
 .or::before,.or::after{
 content: '';
-display: inline-block;
+display:inline-block;
 height: 1px;
 width: 7.5em;
 background-color: rgb(233, 227, 227);

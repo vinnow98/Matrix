@@ -35,10 +35,9 @@ a{
 .bottom{
     display: flex;
     flex-direction: row;
-    align-content: center;
     text-align: center;
-    justify-content: center;
     font-size: 13px;
+    justify-content: center;
     
 }
 

@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    color: blue;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+button{
+    margin-bottom: 1em;
+    width: 6em;
+    font-size: 11px;
+    border-radius: 4px; 
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+}
+button:hover{
+    cursor: pointer;
+}
+li{
+    list-style: none;
+}
+.bold{
+    font-weight: bold;
+}
+.notBold{
+    font-weight: normal;
+}
+.subheader{
+    font-size: 20px;
+    margin-top: 0.5em;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    padding: 0 20%
+} 
+.img-paypal{
+    height: 3em;
+    width: 9em;
+}
+nav{
+    display: flex;
+    gap: 0.1em;
+    margin-top: 2em;
+    color: white;
+    justify-content: center;
+   
+}
+
+.welcome,.inactive{
+    height: 2em;
+    padding: 0.2em 3em;
+    border-radius: 5px;
+
+}
+.welcome{
+    background-color: rgb(40,82,135);
+}
+
+.inactive{
+    background-color: rgb(5,38,83);
+}
+
+.bar{
+    position: relative;
+    margin: -0.5em 0;
+    background-color: rgb(40,82,135);
+    width:100%;
+    height: 2em;
+}
+.mid-section{
+    display: flex;
+}
+
+aside{
+    width: 13em;
+}
+.side-1,.side-2{
+     margin: 2em 2em 1em 0;
+     
+}
+.side-1-2,.side-2-2{
+   background-color: rgb(236, 236, 236); 
+   height: auto;
+   width: 100%;
+   padding: 1em;
+   display: flex;
+   flex-direction: column;
+   font-size: 13px;
+}
+
+h2{
+    font-size: 15px;
+    background-color: rgb(180, 180, 180);
+    width: 100%;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+}
+
+.img-paymentMethods{
+    height: 2em;
+    width: 5em;
+}
+
+.quoter{
+    display: flex;
+    justify-content: flex-end;
+}
+.mid-section{
+    display: flex;
+    justify-content: center;
+}
+main{
+    width: 36em;
+    height: auto;
+    margin-top: 2em;
+}
+.main-1{
+   color: rgb(7, 7, 129); 
+   font-weight: bold;font-size:30px ;
+}
+
+.main-2{
+    display: flex;
+    justify-content:space-between;
+     padding-right: 3em;
+}
+
+.main-2-2-1{
+    background-color: rgb(6, 6, 126);
+    color: white;
+    font-style: italic;
+    font-size: 35px;
+    width: 250px;
+    height: 95px;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: black 1px 1px 8px;
+    line-height: 0.7em;
+}
+
+.main-3{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin: 1em;
+    font-size: 12px;
+}
+.main-4{
+    background-color: rgb(255, 255, 203);
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.main-5{
+    background-color: rgb(183, 183, 183);
+    font-weight: bold;
+    padding: 0.2em;
+    margin: 1em 0 ;
+}
+
+.main-6{
+    gap: 1em;
+}
+.business,.auctions{
+    display: flex;
+}
+.img-business,.img-auctions{
+    height: 3em;
+    width: auto;
+}
+.info-business,.info-auction{
+    margin-left: 1em;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    font-size: 12px;
+}
+.links-1{
+    display: flex;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    margin-top: 1em;
+    font-size: 12px;
+}
+
+.ads{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1em;
+}
+.ads>img{
+     height: 5em;
+    width: 11em;
+}
