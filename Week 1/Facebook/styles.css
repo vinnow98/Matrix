@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 100%;
+    height: 4em;
+    background-color: rgb(46,68,133);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-end;
+    padding: 0 3% 0.5em;
+    /* padding-bottom: 0.5em; */
+}
+input{
+    height: 1.5em;
+}
+a{
+    color: rgb(5, 5, 198);
+    text-decoration: none;
+}
+.img-facebook{
+    width: 9em;
+    height: 2.5em;
+}
+
+.form-submit{
+    display: flex;
+    gap: 0.5em;
+    align-items:flex-end;
+}
+.div-email,.div-password{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.btn-login{
+    height: 1.5em;
+    width: 5em;
+    background-color: rgb(79,100,155);
+    color: white;
+}
+main{
+    width: 100%;
+    height: 35em;
+    background-image: linear-gradient(white, rgb(200,206,227)) ;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+.main-left,.main-right{
+    height: 100%;
+    width: 31%;
+    margin-top: 2em;
+    color: rgb(35, 78, 131);
+    
+}
+
+.main-right{
+    width: 23%;
+}
+.main-left{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.img-main{
+    height: 10em;
+}
+
+.main-right-1{
+    border-bottom: rgb(23,50,84) solid 1px;
+    padding-bottom: 0.5em;
+}
+
+.main-right-2{
+    margin-top: 0.5em;
+}
+.form-signup{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1em;
+    font-size: 14px;
+}
+.label-input{
+    display: flex;
+    height: 2em;
+    align-items: center;
+  
+}
+.label-signup{
+    width: 21%;
+    display: flex;
+    text-align: end;
+    justify-content: flex-end;
+    line-height: 0.9em;
+    margin-right: 0.2em;
+    
+}
+.input-signup{
+    width: 79%;
+}
+.birthday{
+    display: flex;
+    gap: 0.2em;
+}
+
+.main-right-3{
+    margin-left: 22%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.btn-signup{
+    background-color: rgb(86,151,58);
+    height: 2em;
+    width: 6em;
+    color: white;
+    font-weight: bold;
+}
+.btn-signup:hover{
+    cursor: pointer;
+}
+.main-right-4{
+    border-top: rgb(5, 5, 85) 1px solid;
+    margin-top: 1em;
+    padding-top: 0.5em;
+    display: flex;
+    text-align: center;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-size: 13px;
+    margin-top: 1em;
+    width: 52%;
+}
+.languages{
+    border-bottom: grey 1px solid;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5em;
+}
+
+.final-footer{
+    display: flex;
+    margin-top: 0.2em;
+}
+
+.final-footer-1{
+    width: 65%;
+}
+
+.final-footer-2{
+   text-align: end;
+}
