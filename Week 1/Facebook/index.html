@@ -11,12 +11,12 @@
         <img src="./resources/facebookLogo.png" alt="facebookLogo" class="img-facebook">
         <form class="form-submit">
             <div class="div-email">
-                <label for="email">Email</label>
-                <input type="email" required>
+                <label for="email-login">Email</label>
+                <input type="email" required id="email-login">
             </div>
             <div class="div-password">
-                <label for="password">Password</label>
-                <input type="password" required max="12">
+                <label for="password-login">Password</label>
+                <input type="password" required id="password-login">
             </div>
             <input type="submit" value="Log In" class="btn-login">
         </form>
@@ -34,66 +34,57 @@
                 <div>It's free and always will be.</div>
             </div>
             <div class="main-right-2">
-                <form action="" class="form-signup">
+                <form action="#" class="form-signup">
                     <div class="label-input">
-                            <label for="" class="label-signup">First Name:
-                            </label>
-                            <input type="text" class="input-signup">
+                            <label for="fname" class="label-signup">First Name:</label>
+                            <input type="text" class="input-signup" id="fname">
                     </div>
                     <div class="label-input">
-                            <label for="" class="label-signup">Last Name:
-                            </label>
-                            <input type="text" class="input-signup">
+                            <label for="lname" class="label-signup">Last Name:</label>
+                            <input type="text" class="input-signup" id="lname">
                     </div>
                     <div class="label-input">
-                            <label for="" class="label-signup">Your Email:
-                            </label>
-                            <input type="email" class="input-signup">
+                            <label for="email-signup" class="label-signup">Your Email:</label>
+                            <input type="email" class="input-signup" id="email-signup">
                     </div>
                     <div class="label-input">
-                            <label for="" class="label-signup">Re-enter Email:
-                            </label>
-                            <input type="email" class="input-signup">
+                            <label for="remail-signup" class="label-signup">Re-enter Email:</label>
+                            <input type="email" class="input-signup" id="remail-signup">
                     </div>
                      <div class="label-input">
-                            <label for="" class="label-signup">New Password:
-                            </label>
-                            <input type="password" class="input-signup">
+                            <label for="password-signup" class="label-signup">New Password:</label>
+                            <input type="password" class="input-signup" id="password-signup">
                     </div>
                      <div class="label-input">
-                            <label for="" class="label-signup">I am:
-                            </label>
-                            <select name="" id="">
+                            <label for="sex" class="label-signup">I am:</label>
+                            <select name="sex" id="sex">
                                 <option value="" disabled selected>Select Sex</option>
-                                <option value="">Male</option>
-                                <option value="">Female</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
                             </select>
                     </div>
                      <div class="label-input">
-                        <label for="" class="label-signup">Birthday:
-                        </label>
+                        <label for="birthday" class="label-signup">Birthday:</label>
                         <div class="birthday">
-                            <select name="" id="">
+                            <select name="month" id="birthday-month">
                                 <option value="" disabled selected>Month</option>
-                                <option value="">Jan</option>
-                                <option value="">Feb</option>
+                                <option value="01">Jan</option>
+                                <option value="02">Feb</option>
                             </select>
-                            <select name="" id="">
+                            <select name="day" id="birthday">
                                 <option value="" disabled selected>Day</option>
-                                <option value="">01</option>
-                                <option value="">02</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
                             </select>
-                            <select name="" id="">
+                            <select name="year" id="birthday-year">
                                 <option value="" disabled selected>Year</option>
-                                <option value="">2001</option>
-                                <option value="">2002</option>
+                                <option value="2001">2001</option>
+                                <option value="0220">2002</option>
                             </select>
                         </div>
                     </div>
                     <div class="main-right-3">
-                        <a href="">
-                            Why do I need to provide my birthday?
-                        </a>
+                        <a href="">Why do I need to provide my birthday?</a>
                         <div>
                             By clicking Sign Up, you agree to our <a href="">Terms</a> and that you have read and understand our <a href="">Data Use Policy.</a>
                         </div>

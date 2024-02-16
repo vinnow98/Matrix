@@ -15,7 +15,6 @@ nav{
     justify-content: space-around;
     align-items:flex-end;
     padding: 0 3% 0.5em;
-    /* padding-bottom: 0.5em; */
 }
 input{
     height: 1.5em;
@@ -28,7 +27,6 @@ a{
     width: 9em;
     height: 2.5em;
 }
-
 .form-submit{
     display: flex;
     gap: 0.5em;
@@ -39,7 +37,6 @@ a{
     flex-direction: column;
     color: white;
 }
-
 .btn-login{
     height: 1.5em;
     width: 5em;
@@ -61,7 +58,6 @@ main{
     color: rgb(35, 78, 131);
     
 }
-
 .main-right{
     width: 23%;
 }
@@ -74,12 +70,10 @@ main{
 .img-main{
     height: 10em;
 }
-
 .main-right-1{
     border-bottom: rgb(23,50,84) solid 1px;
     padding-bottom: 0.5em;
 }
-
 .main-right-2{
     margin-top: 0.5em;
 }
@@ -93,7 +87,6 @@ main{
     display: flex;
     height: 2em;
     align-items: center;
-  
 }
 .label-signup{
     width: 21%;
@@ -102,7 +95,6 @@ main{
     justify-content: flex-end;
     line-height: 0.9em;
     margin-right: 0.2em;
-    
 }
 .input-signup{
     width: 79%;
@@ -111,14 +103,12 @@ main{
     display: flex;
     gap: 0.2em;
 }
-
 .main-right-3{
     margin-left: 22%;
     display: flex;
     flex-direction: column;
     gap: 2em;
 }
-
 .btn-signup{
     background-color: rgb(86,151,58);
     height: 2em;
@@ -150,16 +140,13 @@ footer{
     justify-content: space-between;
     padding-bottom: 0.5em;
 }
-
 .final-footer{
     display: flex;
     margin-top: 0.2em;
 }
-
 .final-footer-1{
     width: 65%;
 }
-
 .final-footer-2{
    text-align: end;
 }
