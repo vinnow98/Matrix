@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height: 10em;
+            width: 10em;
+        }
+    </style>
+</head>
+<body>
+    <div class="changeText">This text is unchanged</div>
+    <button onclick= changeText()>Press me to change text!</button>
+
+    <br>
+    <br>
+
+    <div id="todolist">
+        <div class="todoheader"> <b>To do List</b></div>
+        <ul id="todoitems">
+            <li>Walk Dog</li>
+            <li>Wash Dishes</li>
+        </ul>
+        <label for="add-items"> Add Items:</label>
+        <input type="text" id="add-items" >
+        <input type="submit"  onclick=addItem()>
+    </div>
+
+    <br>
+    <br>
+    <div class="images">
+        <img src=" https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" id="imgsrc">
+        <button onclick= changeImage()>
+            Change the Image!
+        </button>
+    </div>
+
+    <br>
+    <br>
+
+    <form onsubmit= "validateLogin()" >
+        <label for="username">Please enter your username:</label>
+        <input type="text" id="username" >
+        <br>
+        <label for="password">Please enter your password:</label>
+        <input type="password" id="password" >
+        <br>
+        <input type="submit">
+    </form>
+
+    <div><i>Username: John</i></div>
+    <div><i>Password: password</i></div>
+</body>
+<script src="jsExercises.js"></script>
+</html>
