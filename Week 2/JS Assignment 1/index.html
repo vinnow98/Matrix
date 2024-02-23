@@ -10,6 +10,15 @@
         <script src="bET.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" defer></script>
         <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+
+        <style>
+            #head-num{
+                width: 10%;
+            }
+             #head-item{
+                width: 80%;
+            }
+        </style>
     </head>
     <body >
         <nav class="nav-wrapper">
@@ -44,12 +53,12 @@
             <h2>This is my Todo list</h2>
             <p></p>
             <p></p>
-            <table>
+            <table class="striped">
                 <thead>
                     <tr>
-                        <th>Number</th>
-                        <th>Item</th>
-                        <th>Del?</th>
+                        <th id="head-num">Number</th>
+                        <th id="head-item">Item</th>
+                        <th>Del</th>
                     </tr>
                 </thead>
                 <tbody id="table-items">
