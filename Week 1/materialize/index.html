@@ -1,62 +1,146 @@
+<!-- UI components
+Button
+navbar
+form input
+colours and shadows
+gridlayout
+
+javascript functions
+mobile menus
+paraallaxes
+modals/popups
+image zoom
+tabs -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple Landing Page</title>
-  <!-- Materialize CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <!-- Materialize Icons -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>materialise CSS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </head>
+<style>
+  *{
+    margin: 0;
+    box-sizing:content-box;
+  }
+  .box{
+    height: 200px;
+  }
+  .col{
+    background-color: rgb(223, 217, 217);
+    height: 50px;
+    width: auto;
+    border: white 1px solid;
+  }
+
+  .no-border>div{
+    border: none;
+  }
+</style>
 <body>
-  <!-- Navigation Bar -->
-  <nav>
-    <div class="nav-wrapper blue">
-      <a href="#" class="brand-logo">Logo</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- Content Section -->
   <div class="container">
-    <h3>Table Example</h3>
-    <!-- Table -->
-    <table class="striped">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Email</th>
-          <th>Phone</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>John Doe</td>
-          <td>john@example.com</td>
-          <td>123-456-7890</td>
-        </tr>
-        <tr>
-          <td>Jane Smith</td>
-          <td>jane@example.com</td>
-          <td>987-654-3210</td>
-        </tr>
-      </tbody>
-    </table>
+    <h1>Materialise CSS</h1>
+  </div>
+  <!-- hiding -->
+  <div class="container">
+    <h4 class="hide">Always hide</h4>
+    <h4 class="hide-on-small-only">Hide on small</h4>
+    <h4 class="hide-on-med-and-down">Hide on mid and down</h4>
+    <h4 class="hide-on-med-and-up">hide on mid and up</h4>
+    <h4 class="hide-on-large-only">Hide on large only</h4>
+  </div>
 
-    <!-- Buttons -->
-    <div class="row">
-      <div class="col s6">
-        <a class="waves-effect waves-light btn">Button 1</a>
-      </div>
-      <div class="col s6">
-        <a class="waves-effect waves-light btn">Button 2</a>
+  <!-- color -->
+  <div class="container">
+    <h5 class="blue">blue</h5>
+    <h5 class="blue darken-1">blue darken-1</h5>
+    <h5 class="blue darken-4 white-text">blue darken-4 (4 is max) white-text</h5>
+    <div class="blue lighten-5">blue lighten-5 (5 is max)</div>
+    <div class="orange darken-4 yellow-text">orange darken-5 yellow-text </div>
+    <div class="orange darken-4 yellow-text text-darken-3">orange darken-5 yellow-text text-darken-3 </div>
+  </div>
+
+  <!-- positioning text -->
+  <!-- horizontal -->
+  <div class="container">
+
+    <div class="center-align">horizontal alignment</div>
+    <div class="right-align">Right-align</div>
+    <div class="center-align">center-aLign</div>
+    <div class="left-align">left-align</div>
+  </div>
+<!-- verticla -->
+<div class="container grey lighten-3 box valign-wrapper">
+  <h5>valign-wrapper</h5>
+</div>
+
+<div class="container">
+  <div class="truncate">truncate Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque commodi dignissimos maxime blanditiis earum aspernatur at magnam id laborum dolor hic, exercitationem, cupiditate quasi odio asperiores fuga sapiente consequuntur! Sed.</div>
+</div>
+<!-- buttons -->
+<div class="container"> buttons:
+  <a href="" class="btn">btn</a>
+  <a href="" class="btn-small">btn-small </a>
+  <a href="" class="btn-large">btn-large</a>
+  <a href="" class="btn black">btn black</a>
+  <a href="" class="btn white black-text">btn white black-text</a>
+  <a href="" class="btn disabled">btn disabled</a>
+  <a href="" class="btn-floating pink pulse">btn-floating</a>
+  <div class="btn">im just a div with a btn class</div>
+   <a href="" class="btn waves-effect waves-light">btn waves-effect waves-light</a>
+</div>
+  <div class="container">
+    <h1>icons</h1>
+  </div>
+  <!-- https://fonts.google.com/icons -->
+  <div class="container">
+    <i class="material-icons red-text">warning</i>
+    <i class="material-icons indigo-text">logout</i>
+    <a href="" class="btn">
+      <span>Email me</span>
+      <i class="material-icons indigo-text right">email</i>
+    </a>
+
+    <a href="" class="btn-floating pulse">
+      <i class="material-icons">add</i>
+    </a>
+  </div>
+
+  <div class="container">
+    <h1>Grid</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6 l4 xl2">1</div>
+        <div class="col s12 m6 l4 xl2">1</div>
+        <div class="col s12 m6 l4 xl2">1</div>
+        <div class="col s12 m6 l4 xl2">1</div>
+        <div class="col s12 m6 l4 xl2">1</div>
+        <div class="col s12 m6 l4 xl2">1</div>
       </div>
     </div>
-  </div>
+
+    <div class="container">
+      <h1>z-depth</h1>
+    </div>
+     <div class="container no-border">
+      <div class="row no-border" >
+        <div class="col s12 m6 l4 xl2" >1</div>
+        <div class="col s12 m6 l4 xl2 z-depth-1">1</div>
+        <div class="col s12 m6 l4 xl2 z-depth-2">1</div>
+        <div class="col s12 m6 l4 xl2 z-depth-3">1</div>
+        <div class="col s12 m6 l4 xl2 z-depth-4">1</div>
+        <div class="col s12 m6 l4 xl2 z-depth-5">1</div>
+      </div>
+    </div>
+
+      
 </body>
+  
 </html>

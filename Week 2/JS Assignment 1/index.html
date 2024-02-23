@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="bET.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" defer></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+    </head>
+    <body >
+        <nav class="nav-wrapper">
+            <div class="container">
+                <i class="brand-logo material-icons "><a href="">home</a>
+                </i>
+            </div>
+            <div class="container">
+                <ul class="right" id="nav-links">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container center">
+            <h1>This is my first website!</h1>
+        </div>
+        <p></p>
+        <p></p>
+        <div class="container">
+            <h2> Welcome!</h2>
+            <p></p>
+            <span>
+                <i>Bacon ipsum dolor amet brisket landjaeger frankfurter filet mignon capicola. Capicola chicken doner, meatloaf tongue brisket tri-tip pork belly buffalo fatback beef shankle corned beef. Meatball cupim spare ribs tongue, boudin landjaeger ribeye alcatra andouille beef ribs. Spare ribs pastrami shoulder, rump drumstick cow biltong short ribs shank capicola swine bresaola </i>
+            </span>
+        </div>
+        <p></p>
+        <p></p>
+        <div class="container">
+            <h2>This is my Todo list</h2>
+            <p></p>
+            <p></p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Number</th>
+                        <th>Item</th>
+                        <th>Del?</th>
+                    </tr>
+                </thead>
+                <tbody id="table-items">
+                </tbody>
+            </table>
+            <div class="input-field col s1">
+               <form onsubmit="return addItems()" class="col s12">
+                    <div class="row">
+                        <div class="input-field col s3">
+                            <input placeholder="Add items here" id="new-item" type="text" class="validate"required>
+                            <label for="new-item">Add item</label>
+                        </div>
+                    </div>
+                    <input type="submit" name="" id="submit" value="submit" class="btn">
+                </form>
+            </div>
+    </body>
+</html>
