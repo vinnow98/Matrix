@@ -1,10 +1,8 @@
+const question = document.getElementById("question");
+const answer = document.getElementById("answer");
+const buttons = document.querySelectorAll("button");
 let operations = [];
-let question = document.getElementById("question");
-let answer = document.getElementById("answer");
 let counter = 1;
-
-let btn = document.getElementsByTagName("button");
-let buttons = Array.from(btn);
 
 buttons.forEach((element) => {
   element.addEventListener("click", function (e) {
@@ -19,7 +17,7 @@ function findResult() {
   if (counter == 0) {
     joined = operations.join("");
     try {
-      result = eval(joined);
+      result = math.evaluate(joined);
       answer.innerHTML = result;
       operations = [];
       counter += 1;
