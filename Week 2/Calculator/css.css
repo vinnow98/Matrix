@@ -1,10 +1,12 @@
 body{
+    height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .body{
-    width: 40em;
-    height: 40em;
+    width: 18em;
+    height: 27em;
     background-color: yellow;
     display: flex;
     flex-direction: column;
@@ -39,8 +41,8 @@ body{
     align-items: center;
 }
 button,.clear{
-    height: 5em;
-    width: 5em;
+    height: 3em;
+    width: 3em;
     font-size:20px;
 }
 .div-button{
@@ -60,8 +62,8 @@ button,.clear{
     gap: 18px;
 }
 .btn-equal{
-    height: 16em;
-    width: 7.5em;
+    height: 10em;
+    width: 4.5em;
 }
 .operations{
     display: flex;
