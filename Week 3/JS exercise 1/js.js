@@ -1,6 +1,6 @@
 // 1
 
-let user1 = {
+const user1 = {
   name: "John",
   years: 30,
 };
@@ -18,7 +18,7 @@ let currentVisitor;
 
 // 4
 // let user = {}; This is an empty object
-let user = {
+const user = {
   name: "John",
   surname: "Smith",
 };
@@ -30,7 +30,7 @@ delete user.name;
 
 // 6
 
-let salaries = {
+const salaries = {
   Fred: 100,
   Ted: 160,
   Ghaith: 130,
