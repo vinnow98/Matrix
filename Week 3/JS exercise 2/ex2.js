@@ -1,6 +1,6 @@
 // 1
 const arr = [5, 3, 8, 1];
-let filtered = filterRange(arr, 1, 4);
+const filtered = filterRange(arr, 1, 4);
 
 //arr is the array to search, a is the bottom number, b is the top number
 function filterRange(arr, a, b) {

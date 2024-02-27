@@ -1,6 +1,6 @@
 // 1
-// let age = 18;
-// let checkAge = () =>
+// const age = 18;
+// const checkAge = () =>
 //   age > 18 ? true : "Do you have your parents permission to access this page?";
 
 // console.log(checkAge());
@@ -18,7 +18,7 @@
 
 // 3
 
-// let ask = (question, yes, no) => {
+// const ask = (question, yes, no) => {
 //   if (confirm(question)) yes();
 //   else no();
 // };
@@ -34,7 +34,7 @@
 // );
 
 // 4
-// let calculator = {
+// consst calculator = {
 //   continue: true,
 //   read: function () {
 //     this.a = prompt("first number?");
@@ -61,5 +61,5 @@
 // }
 
 // 5
-// let min = (a, b) => (a < b ? a : b);
+// const min = (a, b) => (a < b ? a : b);
 // console.log(min(7, 4));

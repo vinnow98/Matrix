@@ -5,7 +5,7 @@ const user1 = {
   years: 30,
 };
 
-let { name1, years, isAdmin = false } = user1;
+const { name1, years, isAdmin = false } = user1;
 // console.log(name1, years, isAdmin);
 
 // 2
@@ -52,14 +52,14 @@ function addAllSalaries(obj) {
 // } else {
 //   result = "Over";
 // }
-let a = 1;
-let b = 2;
+const a = 1;
+const b = 2;
 result = a + b < 4 ? "Below" : "Over";
 // console.log(result);
 
 // 8
-let login = "Emploee";
-let message =
+const login = "Employee";
+const message =
   login === "Employee"
     ? "Hello"
     : login === "Director"
