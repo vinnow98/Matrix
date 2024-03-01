@@ -10,21 +10,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
     <script src="script.js" defer></script>
 </head>
-<body>
+<body onload="editTime()">
     <main>
         <div class="title">
             My Pomodoro Clock!
         </div>
         <div class="controls">
-            <div class="session">
-                Session length
+            <div class="work">
+                <div>
+                    Work
+                </div>
+                <div class="controls-work">
+                    <button class="minus-work" onclick="editTime('minusWork')">-</button>
+                    <div class="time-work"></div>
+                    <button class="add-work" onclick="editTime('plusWork')">+</button>
+                </div>
             </div>
             <div class="break">
-                Break length
+                  <div>
+                    Break
+                </div>
+                <div class="controls-break">
+                    <button class="minus-break" onclick="editTime('minusBreak')">-</button>
+                    <div class="time-break"></div>
+                    <button class="add-break" onclick="editTime('plusBreak')">+</button>
+                </div>
             </div>
         </div>
-        <div class="clock">
-
+        <div class="display">Are you ready?</div>
+        <div id="clock">
+            <div class="background-clock"></div>
+            <div class="block-rectangle"></div>
+            <div class="border-clock">Click to Start!</div>
         </div>
     </main>
 </body>
