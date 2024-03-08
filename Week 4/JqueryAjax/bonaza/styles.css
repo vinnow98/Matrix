@@ -1,0 +1,35 @@
+body,.background-hover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+} 
+button{
+    width: 10em;
+    height: 3em;
+}
+
+.area-btn{
+    display: flex;
+    gap: 2em;
+}
+.background-hover{
+    background-color: rgb(246, 246, 217);
+    height: 20em;
+    width: 20em;
+}
+.btn-hover{
+    display: flex;
+    text-align: center;
+    width: 7em;
+    height: 3em;
+    padding: 1em;
+    background-color: rgb(218, 215, 215);
+}
+
+.element-hover{
+    width: 15em;
+    height: 15em;
+    background-color: aqua;
+}

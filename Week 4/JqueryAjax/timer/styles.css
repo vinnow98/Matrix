@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#background-clock{
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+    width: 30em;
+    height: 10em;
+    background-color: rgb(199, 199, 244);
+    position: relative;
+}
+#section-mid{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+#timer{
+    font-size: 75px;
+}
+#buttons{
+    display: flex;
+    gap: 0.5em;
+    text-align: center;
+}
+.button{
+    height: 4em;
+    width: 4em;
+    border-radius: 100%;
+    background-color: white;display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button:hover{
+    cursor: pointer;
+}
+.reset{
+    background-color: blue;
+    color: white;
+}
+
+#section-edit{
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    display: flex;
+    gap: 0.5em;
+}
+
+.time{
+    width: 3em;
+}
