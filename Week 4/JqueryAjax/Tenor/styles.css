@@ -1,0 +1,11 @@
+img{
+    height: 100px;
+    width: 100px;
+    border: 3px black solid;
+}
+
+#data-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
