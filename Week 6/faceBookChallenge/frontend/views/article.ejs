@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><%=article.title%></h1>
+    <%
+    const currentDate = article.updatedAt.slice(0,10)
+    const currentTime = article.updatedAt.slice(11,16)
+    const hour = parseInt(currentTime.slice(0,2))+1
+    if(hour==24){
+        hour = 0
+    }
+    const fixedTime = hour + ":" + currentTime.slice(-2)
+
+    %>
+    <em><div>Last updated on: 
+        <%=currentDate%>,
+        <%=fixedTime%>
+    </div></em>
+    <div><%=article.message%></div>
+    <br>
+    <a href="/del/post/<%=article._id%>"><button>Delete</button></a>
+    <a href="/get/post/<%=article._id%>"><button>Edit</button></a>
+    <br>
+    <br>
+    <a href="/feed">Back to home</a>
+</body>
+</html>

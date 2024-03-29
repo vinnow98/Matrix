@@ -1,0 +1,36 @@
+<!-- home.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Welcome to Facebook!</h1>
+    <a href="/newarticle"><button>Add new article</button></a>
+     <% if (allData.length > 0) { %>
+        <ul>
+            <% allData.forEach(data => { %>
+                <li>
+                    <strong>Title:</strong> <%= data.title %><br>
+                    <strong>Message:</strong> 
+                    <% 
+                        const messageWords = data.message.split(' ');
+                        const shortenedmessage = messageWords.slice(0, 10).join(' ');
+                    %>
+                    <%= shortenedmessage %> <% if (messageWords.length > 10) { %>...<% } %>
+                    <br>
+                    <a href="/article/<%=data._id%>">See more</a>
+                    <hr>
+                </li>
+                
+            <% }); %>
+        </ul>
+    <% } else { %>
+        <p>No posts available.</p>
+    <% } %>
+    
+</body>
+</html>
