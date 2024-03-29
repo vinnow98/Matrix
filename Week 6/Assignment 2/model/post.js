@@ -13,7 +13,7 @@ const postSchema = new schema(
   { timestamps: true }
 );
 
-const post = mongoose.model("post", postSchema);
+const post = mongoose.model("person", postSchema);
 
 module.exports = {
   async postFunction() {
@@ -23,7 +23,7 @@ module.exports = {
   },
   async postFunction2() {
     const createdPost = await post.create({
-      title: "george orwell",
+      title: "matrix",
       text: "1984",
     });
     console.log("posting something");
