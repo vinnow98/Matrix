@@ -1,0 +1,47 @@
+<!-- home.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Home Page</h1>
+    <% if (allData.length > 0) { %>
+        <ul>
+            <% allData.forEach(post => { %>
+                <li>
+                    <strong>title:</strong> <%= post.title %><br>
+                    <strong>Post Text:</strong> <%= post.postText %><br>
+                    <a href="del/post/<%=post._id%>"><button>Delete</button></a>
+                    <a href="get/post/<%=post._id%>"><button>Edit</button></a>
+                    <br>
+                    <br>
+                    <% post.comments.forEach(comment=> { %>
+                        <div><%=comment.comment%></div>
+                        <% });%>
+                    <form action="/post/comment/<%=post._id%>" method="post">
+                        <textarea name="comment" id="comment" cols="30" rows="3" placeholder="Comment something!"></textarea>
+                        <br>
+                        <button type="submit">Submit</button>
+                    </form>
+                    
+                    <hr>
+                </li>
+            <% }); %>
+        </ul>
+    <% } else { %>
+        <p>No posts available.</p>
+    <% } %>
+     <h1>Create Post:</h1>
+        <form action="/post" method="post">
+            <input type="text" id="title" name="title" placeholder="Title" required>
+            <br>
+            <br>
+            <textarea name="postText" id="postText" cols="30" rows="10" placeholder="What are you thinking?" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+</body>
+</html>

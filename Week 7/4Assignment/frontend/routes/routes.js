@@ -1,0 +1,14 @@
+const express = require("express");
+const route = express.Router();
+const controller = require("../controller/controller");
+route.get("/", controller.getAlldata);
+route.post("/post", controller.newPost);
+route.get("/del/post/:_id", controller.delPost);
+route.get("/get/post/:_id", controller.getPost);
+route.post("/update/post/:_id", controller.updatePost);
+route.post("/post/comment/:_id", controller.postComment);
+route.get("/signup", controller.signup);
+route.post("/post/signup", controller.signupPost);
+route.get("/login", controller.login);
+route.post("/post/login", controller.loginPost);
+module.exports = route;
