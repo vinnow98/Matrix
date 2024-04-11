@@ -11,14 +11,21 @@ const NewTask = ({ onAddItem }) => {
     };
 
     onAddItem(newItem);
-    // event.target.reset();
+    event.target.reset();
   };
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <input type="text" name="name" />
+        <input type="text" name="name" placeholder="Title" />
         <br />
-        <textarea name="description" id="" cols="30" rows="10"></textarea>
+        <br />
+        <textarea
+          name="description"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Description"
+        ></textarea>
         <button type="submit">Submit</button>
       </form>
     </div>
