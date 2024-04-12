@@ -1,0 +1,8 @@
+#quoteDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
