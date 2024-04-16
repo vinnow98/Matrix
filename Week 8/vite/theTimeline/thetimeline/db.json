@@ -1,0 +1,27 @@
+{
+  "posts": [
+    {
+      "id": "9f94",
+      "Username": "vinny",
+      "PostText": "aloaeko\n"
+    }
+  ],
+  "comments": [
+    {
+      "id": "e01b",
+      "comment": "lalalal"
+    },
+    {
+      "id": "339d",
+      "comment": "asdasda"
+    },
+    {
+      "id": "339d",
+      "comment": "asasdfadfa"
+    },
+    {
+      "id": "9f94",
+      "comment": "lalala"
+    }
+  ]
+}
