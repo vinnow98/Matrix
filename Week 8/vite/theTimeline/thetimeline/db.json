@@ -1,9 +1,14 @@
 {
   "posts": [
     {
-      "id": "9f94",
-      "Username": "vinny",
-      "PostText": "aloaeko\n"
+      "id": "454d",
+      "Username": "asd",
+      "PostText": "asd"
+    },
+    {
+      "id": "8ef9",
+      "Username": "test",
+      "PostText": "hello"
     }
   ],
   "comments": [
@@ -20,8 +25,8 @@
       "comment": "asasdfadfa"
     },
     {
-      "id": "9f94",
-      "comment": "lalala"
+      "id": "454d",
+      "comment": "ajsndj"
     }
   ]
 }

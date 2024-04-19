@@ -55,21 +55,19 @@ const Home = () => {
             Make a Post!
           </Link>
         </div>
-        
-       {
-       post.map((data, index) => (
+
+        {post.map((data, index) => (
           <div className="row align-items-center" key={index}>
             <div className="col-8">
               <div className="lead">
                 <strong>{data.Username}</strong>
-                <em> posted:</em>
+                <span className="fst-italic"> posted</span>
+                {/* <em> posted:</em> */}
                 <br />
                 <div className="post p-2 mark mb-2">{data.PostText}</div>
               </div>
               <div>
-                
                 {data.comments.map((comment, commentIndex) => (
-            
                   <div key={commentIndex} className="ms-3 mb-2 small">
                     "{comment.comment}"
                   </div>
@@ -80,8 +78,8 @@ const Home = () => {
                 name="comment"
                 id="comment"
                 placeholder="add your comment here!"
-                onKeyPress={e=>{
-                    handleComment(e,data.id,e.target.value)
+                onKeyPress={(e) => {
+                  handleComment(e, data.id, e.target.value);
                 }}
               />
             </div>
@@ -103,7 +101,6 @@ const Home = () => {
         ))}
       </div>
     </div>
-    
   );
 };
 
